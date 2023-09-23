@@ -4,6 +4,7 @@ import { Figtree } from "next/font/google";
 import Header from "@/app/components/header/header";
 import Footer from "@/app/components/footer/footer";
 import { usePathname } from 'next/navigation';
+import Layouts from '@/utils/Layout'
 import "bootstrap/dist/css/bootstrap.min.css";
 import './globals.css'
 
@@ -64,12 +65,15 @@ export default function RootLayout({ children }) {
 
       <body className={figtree.className}>
 
+          <Layouts pathname={pathName}>
+
+
       {!shouldHideHeader() && <Header /> }
         
         {children}
         
         
-        
+        </Layouts>
 
 
 

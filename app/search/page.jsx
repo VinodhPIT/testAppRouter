@@ -150,7 +150,7 @@ export default   function Search  ({
  <Suspense fallback={<Load/>}>
 
 
-<Hai/>
+{/* <Hai/> */}
 
 
 </Suspense>

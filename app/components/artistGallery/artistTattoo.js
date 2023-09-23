@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { blurDataURL } from "@/constants/constants";
 import NoData from '@/app/components/noDatafound/noData'
-import style from "@/components/styles/listing.module.css";
+import style from "@/app/components/styles/listing.module.css";
 
 
 const Tattoo = ({ data }) => {

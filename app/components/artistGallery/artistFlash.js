@@ -3,7 +3,7 @@ import styles from "@/app/tattoo/tattoodetail.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import { blurDataURL } from "@/constants/constants";
-import style from "@/components/styles/listing.module.css";
+import style from "@/app/components/styles/listing.module.css";
 import NoData from '@/app/components/noDatafound/noData'
 
 const Flash = ({ data }) => {

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import PageLoad from "@/app/components/pageLoad";
 import { useGlobalState } from "@/context/Context";
-import styles from "@/components/styles/listing.module.css";
+import styles from "@/app/components/styles/listing.module.css";
 import Link from "next/link";
 import NoData from '@/app/components/noDatafound/noData'
 import {blurDataURL} from  '@/constants/constants'

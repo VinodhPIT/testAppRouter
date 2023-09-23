@@ -14,7 +14,7 @@ export default function Slider2() {
           <li>
             <Image
               priority={true}
-              src="/img-mobile-new-01.png"
+              src="/img-mobile-new-02.png"
               width={218}
               height={1446}
               alt="Picture of the author"
@@ -25,7 +25,7 @@ export default function Slider2() {
           <li>
             <Image
               priority={true}
-              src="/img-mobile-new-01.png"
+              src="/img-mobile-new-02.png"
               width={218}
               height={446}
               alt="Picture of the author"
@@ -37,7 +37,7 @@ export default function Slider2() {
           <li>
             <Image
               priority={true}
-              src="/img-mobile-new-01.png"
+              src="/img-mobile-new-02.png"
               width={218}
               height={446}
               alt="Picture of the author"

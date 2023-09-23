@@ -1,6 +1,9 @@
+'use client'
+
+
 import { useEffect } from "react";
 
-const Layout = ({ children, pathname }) => {
+const Layouts = ({ children, pathname }) => {
   useEffect(() => {
     if (pathname === "/klarna" || pathname === "/") {
       document.body.style.backgroundColor = "#F8F8F8";
@@ -18,4 +21,4 @@ const Layout = ({ children, pathname }) => {
   return <div>{children}</div>;
 };
 
-export default Layout;
+export default Layouts;
